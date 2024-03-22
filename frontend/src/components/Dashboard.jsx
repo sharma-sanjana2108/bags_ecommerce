@@ -20,7 +20,7 @@ const Dashboard = ({ handelDashboard }) => {
       const token = localStorage.getItem("token");
       try {
         const res = await axios.post(
-          "http://localhost:8100/api/products/dashboard",
+          "https://bags-ecommerce.onrender.com/api/products/dashboard",
           null,
           {
             headers: { authoraization: token },
