@@ -8,7 +8,7 @@ const Search = () => {
   const handleSearch = async () => {
     try {
       const response = await axios.post(
-        `http://localhost:8100/api/products/search?query=${query}`
+        `https://bags-ecommerce.onrender.com/api/products/search?query=${query}`
       );
       setSearchResults(response.data);
     } catch (err) {
