@@ -1,0 +1,77 @@
+/* Common styles */
+
+.new-empty {
+  width: 100%;
+  outline: none;
+}
+#noitem {
+  width: 200px;
+}
+.qty-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.qty-btns button {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+/* For small screens */
+@media (max-width: 768px) {
+  .empty-cart,
+  .product-list {
+    margin-top: 20px !important;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+  .remove-btn {
+    margin-top: 10px;
+    margin-left: 12px;
+  }
+  .product-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+/* For medium screens */
+@media (min-width: 576px) and (max-width: 768px) {
+  .empty-cart,
+  .product-list {
+    width: 80%;
+    margin: auto;
+  }
+  .product-card {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+
+/* For large screens */
+@media (min-width: 768px) {
+  .empty-cart,
+  .product-list {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  .product-card {
+    width: 100%;
+    margin: 0;
+  }
+}

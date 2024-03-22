@@ -1,0 +1,177 @@
+.footer-section {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+}
+
+.all-tags {
+  width: 84%;
+
+  margin-bottom: 40px;
+}
+
+.all-tags a {
+  color: white;
+  margin-inline: 10px;
+  margin-bottom: 22px;
+  font-size: 14px;
+  border-bottom: 1px solid white;
+}
+
+.popular-search {
+  margin-left: 60px;
+}
+
+.popular-search h5 {
+  color: white;
+  margin-bottom: 22px;
+}
+
+.paragraph {
+  max-width: 80%;
+  height: 110px;
+  padding: 0px 80px 0px 60px;
+  overflow-y: scroll;
+}
+
+.footer-section ul li {
+  list-style: none;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.footer-list ul li {
+  list-style: none;
+  font-size: 14px;
+  margin-block: 15px;
+  margin-inline: 20px;
+}
+
+.footer-list ul li:first-child {
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+
+.bottom-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo hr {
+  width: 93%;
+  height: 20px;
+  margin-inline: 30px;
+  color: white;
+}
+
+.footer-content {
+  color: gray;
+}
+
+.footer-content .privacy-footer {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#visa {
+  width: 70px;
+}
+
+#visaround {
+  width: 45px;
+}
+
+.footer-content p {
+  color: rgb(161, 158, 158);
+  margin-left: 35px;
+  font-size: 14px;
+}
+
+/******* Responsive design ***********/
+
+@media (min-width: 768px) {
+  .footer-section {
+    width: 100%;
+  }
+
+  .footer-list ul li {
+    font-size: 12px;
+    margin-inline: 5px;
+  }
+
+  .footer-list ul li:first-child {
+    font-size: 14px;
+  }
+
+  .footer-logo hr {
+    width: 98%;
+    margin-inline: 0;
+  }
+  .footer-content .privacy-footer {
+    width: 85%;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .footer-content p {
+    text-align: center;
+  }
+}
+
+/******* Responsive design ***********/
+
+@media (max-width: 768px) {
+  .footer-section {
+    width: 100%;
+  }
+
+  .footer-list ul li {
+    font-size: 12px;
+    margin-inline: 5px;
+  }
+
+  .footer-list ul li:first-child {
+    font-size: 14px;
+  }
+
+  .footer-logo hr {
+    width: 98%;
+    margin-inline: 0;
+  }
+  .footer-content .privacy-footer {
+    width: 85%;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .footer-content p {
+    text-align: center;
+  }
+}

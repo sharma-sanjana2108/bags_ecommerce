@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:any-link{
+    text-decoration: none;
+}
+.darktheme{
+    color:white !important;
+}
+
+.dark{
+    background-color: #212121 !important;
+    color: #E0E0E0 !important; 
+}
+.light{
+    background-color: white !important;
+    color:black !important;
+}
